@@ -4,11 +4,47 @@ Data Engineer specific learnings
 ## Day 1
 
 1. **Key Concepts**
-    - Review what a data engineer does and the key components of a data pipeline.
-        
-        -
+    ### Short description Data Engineer
+    
+    A data engineer is a professional responsible for designing, building, and maintaining the infrastructure that enables data storage, transformation, and analysis. Think of them as the architects and builders of data systems.
+    Their role is crucial in preparing raw data so that it can be used effectively by data scientists, analysts, and other business users to derive insights or build models.
 
-    - Understand ETL vs. ELT and event-driven architectures.
+    ### Key Responsibilities of a Data Engineer
+    - Designing and Building Data Pipelines:
+
+    - Ensuring Data Quality and Integrity:
+
+    - Data Integration:
+
+    - Scaling Data Infrastructure:
+
+        As companies grow, their data grows too. Data engineers ensure that the systems they build can handle increasing amounts of data efficiently.
+
+    - Automation and Monitoring:
+
+    - Collaborating with Other Teams:
+
+    ### What is a Data Pipeline?
+    A data pipeline is a system or a series of steps that processes data. It helps move data from one place (source) to another (destination) while performing operations on it to make it useful.
+
+    Imagine you’re getting raw sensor data from an airplane. The data pipeline is like a conveyor belt that takes the data, cleans it up, processes it, and stores it in a way that the company can use it to make decisions.
+
+    The process of collecting and importing data from the sources into your pipeline is called **Data Ingestion**\
+        You can differentiate between **Ingested data** can be streamed (real-time) or **batched** (collected periodically).<br/>
+    
+    ### Tools:
+
+    **Stream:** Google Pub/Sub, Kafka, AWS Kinesis.\
+    **Batch:** Apache Beam Airflow, cron jobs.\
+            
+    ### ETL vs. ELT
+
+    E = Extract <br>
+    L = Load <br>
+    T = Transform <br>
+
+    ELT is the standard to use. <br><br><br>
+
     - Learn about **batch vs. stream processing**.
         - Technologies: Apache Beam (for stream processing) and Airflow (for orchestration).
 2. **Resources**
